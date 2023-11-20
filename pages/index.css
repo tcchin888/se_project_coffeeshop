@@ -8,6 +8,7 @@
 }
 
 .header {
+  position: relative;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -104,7 +105,7 @@
   right: 5px;
   max-height: 568px;
   max-width: 646px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .recipes {
@@ -121,7 +122,6 @@
   gap: 40px;
   justify-content: center;
   margin-top: 80px;
-  margin-bottom: 215px;
 }
 
 .recipes__iframe {
