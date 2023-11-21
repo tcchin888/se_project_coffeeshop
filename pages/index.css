@@ -225,6 +225,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  padding-left: 15px;
 }
 
 .form__button {
@@ -236,13 +237,16 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  background: #2f80ed;
   color: #ffffff;
   min-height: 60px;
   border-radius: 4px;
+  background: #2f80ed;
+  opacity: 100%;
+  transition-timing-function: linear;
 }
 
 .form__button:hover {
+  opacity: 70%;
 }
 
 .form__label_type_checkbox {
@@ -254,4 +258,8 @@
 }
 
 .form__checkbox[type="checkbox"] {
+  min-width: 20px;
+  min-height: 20px;
+  margin-right: 12px;
+  border-radius: 2px;
 }
