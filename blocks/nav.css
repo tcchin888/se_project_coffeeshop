@@ -27,3 +27,7 @@
   color: #000;
   text-decoration: none;
 }
+
+.nav__link:hover {
+  color: #2f80ed;
+}

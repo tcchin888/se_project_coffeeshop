@@ -58,8 +58,8 @@
   border-radius: 50%;
   width: 426px;
   height: 426px;
-  margin-top: -152px;
-  margin-left: -129px;
+  top: -152px;
+  left: -129px;
   position: absolute;
 }
 
@@ -68,8 +68,8 @@
   border-radius: 50%;
   width: 426px;
   height: 426px;
-  margin-top: -152px;
-  margin-left: -129px;
+  top: -152px;
+  left: -129px;
   animation: pulsate 1.3s ease-in-out infinite;
   transform: scale(1.2);
 }
