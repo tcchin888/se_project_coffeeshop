@@ -5,12 +5,15 @@
 
 .footer__content {
   display: flex;
-  flex-direction: column;
 }
 
 .footer__logo {
   width: 105px;
   height: 39px;
+}
+
+.footer__column {
+  margin-left: auto;
 }
 
 .footer__social-heading {
@@ -20,7 +23,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
-  margin-left: auto;
   margin-bottom: 20px;
   margin-top: 0;
 }
