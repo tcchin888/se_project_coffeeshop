@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  position: relative;
 }
 .header__title {
   max-width: 729px;
@@ -56,6 +57,7 @@
   line-height: 20px;
   color: #838383;
   z-index: 1;
+  align-items: end;
 }
 
 .header__paragraph {
